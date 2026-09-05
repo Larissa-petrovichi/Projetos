@@ -1,5 +1,5 @@
 
-## CONSUMO DE ENERGIA DE ELETRODOMÉSTICOS
+## ⚡CONSUMO DE ENERGIA DE ELETRODOMÉSTICOS
 Este projeto criado em Python tem como objetivo calcular o consumo mensal de energia elétrica de aparelhos eletrodomésticos.
 
 
@@ -11,12 +11,12 @@ Este projeto criado em Python tem como objetivo calcular o consumo mensal de ene
 - 30 = quantidade aproximada de dias em um mês.
 - 1000 = conversão de watts-hora (Wh) para quilowatt-hora (kWh).
 
- **Tarifa opcional:** O programa também permite calcular o custo estimado do consumo, utilizando uma tarifa fixa por kWh.
+ **💰Tarifa opcional:** O programa também permite calcular o custo estimado do consumo, utilizando uma tarifa fixa por kWh.
 
 - Custo estimado = consumo mensal × tarifa por kWh
 
 
-**Como executar:**
+**▶️Como executar:**
 
 Para utilizar o programa, execute o arquivo `app.py`.
 
