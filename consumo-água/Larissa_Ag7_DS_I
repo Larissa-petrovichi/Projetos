@@ -1,0 +1,19 @@
+#Entrada de dados
+imovel = input("Digite o tipo de imovel (1 - casa, 2 - comercial, 3 - apartamento): ")
+
+consumo_mensal = float(input("Digite o consumo mensal de água (em metros cúbicos): "))
+
+#Processamendo e saida de dados
+if imovel == "2" or imovel == "comercial":
+    print("Tarifa comercial aplicada - consulte o plano corporativo")
+
+elif (imovel == "3" or imovel == "apartamento") and consumo_mensal < 10:
+    print("Consumo econômico - excelente controle de água!")
+
+elif (imovel == "3" or imovel == "apartamento" or imovel == "1" or imovel == "casa") and consumo_mensal <= 25:
+     
+     print("Consumo moderado - dentro do padrão residencial.")
+        
+else:
+     print("Consumo excessivo - adote medidas de economia e verifique vazamentos.")
+
