@@ -3,7 +3,7 @@ ruim = 0
 
     # Entrada de dados do entrevistado
 
-for i in range(10):
+for i in range(50):
     nome = input("Digite o nome: ")
     idade = int(input("Digite a idade: "))
     opiniao = int(input("Digite a opinião (1-Excelente, 2-Bom, 3-Ruim): "))
